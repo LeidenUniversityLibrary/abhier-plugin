@@ -70,7 +70,7 @@ function papyrus_meta_box_html($post) {
     <input name="ubl_ah_canvas" id="ubl_ah_canvas" type="text" value="<?php echo esc_url($post->ubl_ah_canvas_uri); ?>">
     <label for="ubl_ah_tm_id">Trismegistos TM ID</label>
     <input name="ubl_ah_tm_id" id="ubl_ah_tm_id" type="text" value="<?php echo $post->ubl_ah_tm_id; ?>">
-    <?
+    <?php
 }
 
 /**
