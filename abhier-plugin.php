@@ -3,7 +3,7 @@
 Plugin Name: Abnormal Hieratic functions
 Plugin URI: https://github.com/LeidenUniversityLibrary/abhier-plugin
 Description: Provide functionality for the Abnormal Hieratic Global Portal
-Version: 0.5.3
+Version: 0.5.4
 Author: bencomp
 Author URI: https://ben.companjen.name
 License: GPLv2 Copyright (c) 2019 Leiden University Libraries
@@ -33,7 +33,7 @@ function register_papyrus_type() {
                            'description' => 'Abnormal Hieratic papyri',
                            'public' => true,
                            'has_archive' => true,
-                           'rewrite' => array('slug' => 'papyri'),
+                           'rewrite' => array('slug' => 'papyri', 'with_front' => false),
                            'show_in_rest' => true,
                            'rest_base' => 'papyri',
                            'supports' => array(
