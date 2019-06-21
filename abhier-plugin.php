@@ -11,6 +11,7 @@ License: GPLv2 Copyright (c) 2019 Leiden University Libraries
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
+require_once('viewer.php');
 /**
  * Register papyrus post type
  */
