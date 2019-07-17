@@ -7,7 +7,7 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 // $manifest, $canvas
 function ubl_ah_iframe() {
-    ?><div>Testing, 1, 2.</div>
+    ?><div id="viewer"></div>
     <?php
 }
 
